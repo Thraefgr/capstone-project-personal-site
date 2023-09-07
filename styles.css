@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: linear-gradient(90deg, #045, #08a);
+    background-image: linear-gradient( #002025, #004050);
 }
 
 
@@ -53,6 +53,7 @@ header nav ul li a:hover{
     align-items: center;
     gap: 0.2rem;
     padding: 5%;
+    border-bottom: 1px dotted #28a;
 }
 
 .computer-screen {
@@ -98,4 +99,53 @@ header nav ul li a:hover{
     text-decoration: none;
     color: orange;
     transition: all 0.4s 0s linear;
+}
+
+/*Skills Section*/
+
+.skills {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    padding: 5%;
+    gap: 3rem;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.skill-icons img{
+    width: 10%;
+    min-width: 128px;
+}
+
+.skills p {
+    text-align: center;
+    padding: 0 20%;
+    font-size: 1.5rem;
+}
+
+h1, h2 {
+    color: wheat;
+}
+
+.word-html {
+    color: darkorange;
+}
+
+.word-css {
+    color: #2965f1
+}
+
+.word-js {
+    color:#F0DB4F
 }
