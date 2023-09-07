@@ -14,6 +14,7 @@ body {
 header {
     padding: 1rem;
     font-size: 1.2rem;
+    border-bottom: 1px solid #28a;
 }
 
 header nav {
@@ -42,4 +43,59 @@ header nav ul li a{
 header nav ul li a:hover{
     background-color: #eee;
     color: #111;
+}
+
+.computer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 5%;
+}
+
+.computer-screen {
+    width: 40%;
+    max-width: 1280px;
+    min-width: 480px;
+    padding: 1rem;
+    border: 0.8rem solid #eee;
+    border-radius: 0.3rem;
+}
+
+.computer-screen h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.computer-screen p {
+    font-size: 2rem;
+    margin-left: 0.8rem;
+}
+
+.computer-screen p a{
+    text-decoration: none;
+    color: orange;
+    transition: all 0.4s 0s linear;
+}
+
+.computer-screen p a:hover{
+    text-shadow: 0.1rem 0.1rem 0.1rem black;
+    color: orange;
+}
+
+.computer-keyboard {
+    width: 41%;
+    max-width: 1312px;
+    min-width: 492px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 10px 10px 6px 6px;
+}
+
+.computer-screen p a{
+    text-decoration: none;
+    color: orange;
+    transition: all 0.4s 0s linear;
 }
