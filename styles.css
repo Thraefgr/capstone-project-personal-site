@@ -252,3 +252,45 @@ footer {
         order: -1;
     }
 }
+
+@media (max-width: 576px) {
+    .computer {
+        transform: scale(0.8);
+        padding: 0.5rem;
+    }
+
+    .computer-screen {
+        min-width: 400px;
+    }
+
+    .computer-keyboard {
+        min-width: 410px;
+    }
+
+    .skills {
+        transform: scale(0.8);
+        padding: 0.5rem;
+    }
+    
+    .skills p {
+        padding: 0;
+    }
+
+    .skills img {
+        width: 30%;
+    }
+
+    .about {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, auto);
+        padding: 0.5rem;
+        transform: scale(0.8);
+    }
+
+    .hobby, .profile, .about h2 {
+        grid-column: auto;
+    }
+    .about img {
+        width: 50%;
+    }
+}
